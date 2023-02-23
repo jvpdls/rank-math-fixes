@@ -1,3 +1,5 @@
+<?php 
+
 /* Fixes HTML sitemap caching issues */
 add_filter( 'rank_math/sitemap/enable_caching', '__return_false');
 
